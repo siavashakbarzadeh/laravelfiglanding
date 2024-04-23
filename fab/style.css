@@ -1,0 +1,755 @@
+/* start maket part */
+@font-face {
+    font-family: "iran";
+    src: url("bootstrap-5.2.0-dist/font/IRANSANSX-REGULAR.TTF"),url("bootstrap-5.2.0-dist/font/IRANSANSX-BOLD.TTF"),url("bootstrap-5.2.0-dist/font/IRANSANSX-DEMIBOLD.TTF"),url("bootstrap-5.2.0-dist/font/IRANSANSX-EXTRABOLD.TTF"),
+    url("bootstrap-5.2.0-dist/font/IRANSANSX-LIGHT.TTF"),url("bootstrap-5.2.0-dist/font/IRANSANSX-MEDIUM.TTF"),url("bootstrap-5.2.0-dist/font/IRANSANSX-THIN.TTF"),url("bootstrap-5.2.0-dist/font/IRANSANSX-ULTRALIGHT.TTF");
+}
+.backG{
+    font-family: 'iran';
+    background-color: #1e1e1e;
+}
+@media (max-width: 767px) {
+    .NavPart{
+        display:none;
+    }
+}
+.marketFrow{
+    padding: 39px 0px;
+}
+.MarketText{
+font-family: 'iran';
+margin-right: 21px;
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height:3rem;
+color: #fff;
+background: url("bootstrap-5.2.0-dist/img/Rectangle 70.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: 0px 25px;
+text-transform: capitalize;
+}
+.linkMoreMarket a{
+    font-family: 'iran';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.813rem;
+    line-height: 1,25rem;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.CardMarket{
+    margin: 0 0 10px;
+    position: relative;
+    border-radius: 12px;
+}
+.imgCardMarket{
+    width: 100%;
+    height: 290px;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.cardDesMarket{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+/* border: solid 2px black; */
+width:calc(100%-20px);
+height: 67px;
+z-index: 1;
+position: absolute;
+bottom: 0px;
+right: 10px;
+left: 10px;
+border-radius: 11px;
+background-color:rgba(255, 255, 255, 0.4);
+
+}
+.userViewMarket{
+    position: absolute;
+    width:auto;
+    height: 31px;
+    bottom:50px;
+    left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 10;
+    padding: 13px;
+
+}
+.imgUserMarket{
+   margin: 0px -10px 0px -10px;
+    width: 31px;
+    height: 31px;
+    object-fit: cover;
+
+}
+.InfoCardMarket{
+    margin-top: 1.443rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    align-items: center;
+    /* background-color: red; */
+
+
+}
+.InfoCard2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* border: solid 1px red; */
+    padding: 0px;
+}
+.InfoCard2 div{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+.InfoCard2 div span{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 0.775rem;
+    line-height: 1rem;
+    text-align: left;
+    /* border: solid 1px red; */
+    margin-left: -15px;
+    color: #0A1117;
+}
+.InfoCard2 div img{
+    margin-left: 3px;
+}
+.InfoCard2 .priceMarket{
+    /* border: solid 1px red; */
+    margin-right: -20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 19px;
+
+color: #0A1117;
+}
+.InfoCardMarket span{
+    font-family: 'iran';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #0A1117;
+}
+.mesMarket{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* navMenu setting */
+.navMenu{
+    margin-top: 51px;
+    min-height:937px ;
+    color: #fff;
+    border-right-color: #fff;
+    border-right-width: 2px;
+    border-right-style: solid;
+
+}
+.navMenu ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 41px;
+    /* border: solid 1px red; */
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.navMenu ul li img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+.navMenu ul li a{
+    text-decoration: none;
+    font-family: 'iran';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+    padding: 3px;
+
+color: #C9C9C9;
+}
+.userProf{
+    margin-top: 51px;
+    /* min-height:537px ; */
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.userStatus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 86px;
+    height: 86px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+
+border-radius: 10px;
+margin-bottom: 10px;
+}
+.userStatus span{
+    font-family: 'iran';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+}
+.userIfoProf{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.userProf .userIMg{
+/* border: solid 1px red; */
+width: 86px;
+height: 86px;
+border-radius: 50%;
+margin-right: 10px;
+
+}
+.imageuser{
+    position: relative;
+}
+.elipse{
+    position: absolute;
+    top: 8px;
+    right: 13px;
+}
+.userIfoProf div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.userNamePro{
+    font-family: 'iran';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+.actProf{
+    font-family: 'iran';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.editProf a{
+    text-decoration: none;
+    font-family: 'iran';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #4C9AFF;
+}
+.active span{
+    /*color:#815AC0;*/
+    /*font-size: 24px;*/
+    font-weight: bold;
+    /*line-height: 24pxs;*/
+
+}
+/* acccept info profile */
+.acceptProfEdit{
+margin-top: 20px;
+height: 202px;
+background: rgba(217, 217, 217, 0.05);
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+}
+.closeEditProf{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+.acceptInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.acceptDesProf{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+/* edit profile */
+.formEditProf{
+margin-top: 20px;
+min-height: auto;
+background: rgba(217, 217, 217, 0.05);
+border-radius: 10px;
+color: #fff;
+}
+.imageChangeProf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.imageChangeProf img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.changeImgPro,.changeImgPro:hover{
+    text-decoration: none;
+    font-family: 'iran';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+.removeImgPro,.removeImgPro:hover{
+    text-decoration: none;
+font-family: 'iran';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+
+color: #FF5464;
+}
+.informationProf{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+}
+.informationProf div{
+min-height: 78px;
+margin: 5px 0px;
+/* border: solid 1px red; */
+}
+.inputProfEd{
+    height: 47px;
+    background: rgba(0, 0, 0, 0.1);
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+}
+.LabelEdit{
+    font-family: 'iran';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+.textAreaEdit{
+width: 100%;
+height: 200px;
+
+background: rgba(0, 0, 0, 0.1);
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+}
+.inputProfEd::placeholder{
+    font-family: 'iran';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+padding-left: 7px;
+color: rgba(255, 255, 255, 0.3);
+}
+.buttonEdit{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.CancelEditProf,.CancelEditProf:hover {
+    font-family: 'iran';
+    margin-right: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    color: #FFFFFF;
+}
+.SaveEditProf ,.SaveEditProf:hover{
+background-color: #0A71F6;
+width: 116px;
+height: 40px;
+font-family: 'iran';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+border-radius: 3px;
+color: #FFFFFF;
+}
+/*history page*/
+.paperIcon{
+    margin-left: 6px;
+}
+.RowBox{
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-family: 'iran';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+
+}
+.tableBox{
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+}
+.RowBox2{
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-family: 'iran';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+}
+.RowBox2 td{
+    background: rgba(0, 0, 0, 0.03);
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: rgba(232, 231, 231, 0.6);
+}
+.RowTableImp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*setting Box*/
+.settingBox{
+    margin: 24px -10px ;
+    /*height: 655px;*/
+    background: rgba(217, 217, 217, 0.05);
+    border-radius: 10px;
+    padding-bottom: 70px;
+
+}
+.TransactionNotif{
+    font-family: 'iran';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.UlSetting{
+    list-style-type: none;
+
+}
+.UlSetting li{
+
+    min-height: 45px;
+    margin: 10px 0px;
+    /*border: solid 1px red;*/
+}
+.TranNotText{
+    font-family: 'iran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.switchDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(239, 239, 239, 0.4);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #4256cb;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #4256cb;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*user profile*/
+.userProfile1{
+/*border: silver 1px solid;*/
+    min-height: 476px;
+    background: rgba(217, 217, 217, 0.05);
+    border-radius: 10px;
+
+}
+.navProItam a{
+    /*border: solid 1px red;*/
+    width: 100px;
+    font-family: 'iran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #C1C4D6;
+}
+ .navProItam a:hover{
+     color: #0A71F6;
+}
+.navProItam .active{
+    border-bottom: solid 1px #0A71F6;
+    color: #0A71F6;
+}
+.cardUser{
+    position: relative;
+}
+.cardFooter{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: revert;
+    align-items: center;
+    /*border: 1px solid red;*/
+    width: calc(100% - 15px);
+    min-height: 70px;
+    position: absolute;
+/*right: 0;*/
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+
+}
+.cardFooter .btnSale{
+    margin-top: 10px;
+    /*border: solid 1px red;*/
+    width: 100%;
+    height: 24px;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 12px;
+    background-color: #815AC0;
+    font-weight: bold;
+    border: none;
+    color: #FFFFFF;
+}
+.SaleInform{
+    /*border:solid 1px orange;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+
+
+}
+.SaleInfor img{
+    margin-right: 5px;
+    width: 36px;
+    height: 36px;
+    /*border: solid 1px red;*/
+    border-radius: 50%;
+}
+.SaleInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.SaleInformation div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: 3px;
+    font-family: 'iran';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #0A1117;
+}
+/*Trade*/
+.navTrade{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    min-height: auto;
+}
+.rowSwap div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    /*background-color: orange;*/
+}
+.FromTrade{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 0px 15px;
+    font-family: iran;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+.FromTrade::placeholder{
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+.SelectFrom{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 0px 15px;
+    font-family: iran;
+    font-size: 12px;
+    line-height: 20px;
+}
+.btnApprove{
+    width: 100%;
+  color: #fff;
+    height: 35px;
+    margin: 5px 0px;
+    background-color: hsl(214, 94%, 50%);
+    border: 1px solid #0A71F7;
+    border-radius: 6px;
+}
+/*import nft*/
+.newItemNft{
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+.NftImp{
+    padding-left: 37px;
+    color: #fff;
+border: none;
+    height: 55px;
+outline: none;
+    margin-bottom: 36px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.NftImp::placeholder{
+    color: #fff;
+    /*padding-left: 37px;*/
+
+}
+.NftButton1{
+
+}
+.NftButton2{
+
+}
