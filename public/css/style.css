@@ -18,6 +18,16 @@
     font-family:font1;
     src: url(../bootstrap-5.2.0-dist/font/Rochester-Regular.ttf);
 }
+select option {
+    color: inherit;
+    background-color: #320a28;
+}
+select:focus {
+    outline: none;
+}
+select::-ms-expand {
+    display: none;
+}
 :root{
     --mc1: #cc00ff;
     --mc2: #7000ff;
@@ -6821,13 +6831,4 @@ select {
     /* Remove focus outline */
     /* Remove IE arrow */
 }
-select option {
-    color: inherit;
-    background-color: #320a28;
-}
-select:focus {
-    outline: none;
-}
-select::-ms-expand {
-    display: none;
-}
+
