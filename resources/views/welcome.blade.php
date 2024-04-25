@@ -5,48 +5,48 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 
 <head>
-    <!-- Meta Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '462386259470041');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=462386259470041&ev=PageView&noscript=1"
-        /></noscript>
-    <!-- End Meta Pixel Code -->
+    <head>
+        <!-- Meta Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window, document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '462386259470041');
+            fbq('track', 'PageView');
+        </script>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- End Meta Pixel Code -->
+        <meta name="facebook-domain-verification" content="9uqpjgtaks18vkvzyusdiho662evl6" />
 
-    <meta name="description" content="FigAtre is a marketplace for phigital Art">
-    <meta name="author" content="Aida Allahverdi">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- Add this in the <head> section -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <meta name="language" content="Italian">
 
-    <!-- Add this before the end of the <body> section -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+        <meta name="description" content="FigAtre is a marketplace for phigital Art">
+        <meta name="author" content="Aida Allahverdi">
 
-    <title>FigArte</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <title>FigArte</title>
+        <meta http-equiv=”content-language” content=”it”>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- !Google Fonts -->
 
-    <!-- Styles -->
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- !Google Fonts -->
+
+        <!-- Styles -->
     <link type="text/css" rel="stylesheet" href="{{ asset('css/plugins.css?ver=3.1') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css?ver=3.1') }}" />
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
@@ -60,33 +60,34 @@
     <!--[if lt IE 9]> <script type="text/javascript" src="{{ asset('js/modernizr.custom.js?ver=3.1') }}"></script> <![endif]-->
     <!-- !Styles -->
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-WBSDNLN6');</script>
-    <!-- End Google Tag Manager -->
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-WBSDNLN6');</script>
+        <!-- End Google Tag Manager -->
 
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QNHRFGSXX0"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QNHRFGSXX0"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'G-QNHRFGSXX0');
-    </script>
+            gtag('config', 'G-QNHRFGSXX0');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+                       src="https://www.facebook.com/tr?id=462386259470041&ev=PageView&noscript=1"
+            /></noscript>
 
 
 
 
-
-</head>
+    </head>
 
 <body>
-
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBSDNLN6"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -355,7 +356,7 @@
                 <!-- Description -->
                 <div class="fn_cs_desc">
 
-                    <h2>Siamo l’X Factor degli artisti
+                    <h2>Siamo l'X Factor degli artisti
                     </h2>
                     <p>
                         l’ecosistema che mette in contatto artisti e collezionisti
@@ -650,6 +651,15 @@
 
                 </div>
             </div>
+            <div class="row " style="margin-top: 50px;margin-top: 10px;">
+                <div class="col-md-12" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+                    <a href="#Contact" class="metaportal_fn_button"><span>Entra In Azione
+								<span></a>
+                </div>
+            </div>
+
+
+
         </div>
 
         <!-- Section Divider -->
@@ -895,6 +905,13 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+
+            <div class="row " style="margin-top: 50px;margin-bottom: 20px;">
+                <div class="col-md-12" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+                    <a href="#Contact" class="metaportal_fn_button"><span>Iscriviti Alla WhiteList
+													<span></a>
                 </div>
             </div>
         </div>
@@ -1513,7 +1530,7 @@
                                         <div class="client-content">
                                             <img src="img/quote.png" alt="">
                                             <p style="text-align: justify;"> "FigArte ha trasformato la mia visione artistica.
-                                                Oltre a coltivare la creatività, ho imparato a promuovere con successo le mie opere grazie alle competenze digitali acquisite.
+                                                Oltre a coltivare la creatività, ho imparato a promuovere con successo le mie opere grazie alle competenze digitali acquisite.<br/>
                                                 Grazie per aprire le porte a un mondo di opportunità senza limiti."
                                             </p>
                                         </div>
@@ -1942,7 +1959,7 @@
             <form action="{{ route('messages.store') }}" method="POST">
                 @csrf
                 <div>
-                    <label for="name">Name:</label>
+                    <label for="name" class="text-white mr-1">Name:</label>
                     <input type="text" id="name" name="name" required>
                 </div>
                 <div>
