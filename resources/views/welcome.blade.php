@@ -1970,7 +1970,7 @@
                     <label for="message" class="text-white p-2">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
-                <div class="my-2">
+                <div class="my-2 custom-select">
                     <label for="user_type" class="text-white p-2">Type of User:</label>
                     <select id="user_type" name="user_type" required class="text-white bg-transparent" style="background-color: transparent;">
                         <option value="artista" class="text-white bg-transparent">Artista</option>
