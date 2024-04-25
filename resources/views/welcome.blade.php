@@ -1959,20 +1959,20 @@
             <form action="{{ route('messages.store') }}" method="POST">
                 @csrf
                 <div>
-                    <label for="name" class="text-white mr-1">Name:</label>
+                    <label for="name" class="text-white p-2">Name:</label>
                     <input type="text" id="name" name="name" required>
                 </div>
                 <div>
-                    <label for="email">Email:</label>
+                    <label for="email" class="text-white p-2">Email:</label>
                     <input type="text" id="email" name="email" required>
                 </div>
                 <div>
-                    <label for="message">Message:</label>
+                    <label for="message" class="text-white p-2">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
                 <div>
-                    <label for="user_type">Type of User:</label>
-                    <select id="user_type" name="user_type">
+                    <label for="user_type" class="text-white p-2">Type of User:</label>
+                    <select id="user_type" name="user_type" required>
                         <option value="artista">Artista</option>
                         <option value="colezionista">Collezionista</option>
                     </select>
