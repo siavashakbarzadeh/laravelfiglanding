@@ -11,4 +11,4 @@ Route::get('/', function () {
 
 Route::post('/send-message', [MessageController::class, 'store'])->name('messages.store');
 
-Route::post('/submit-form', [EmailController::class, 'submitForm'])->name('submit.form');
+
