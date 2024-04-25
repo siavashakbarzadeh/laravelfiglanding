@@ -25,6 +25,9 @@ select option {
 select:focus {
     outline: none;
 }
+select option:hover {
+    background-color: #7000ff;
+}
 select::-ms-expand {
     display: none;
 }
