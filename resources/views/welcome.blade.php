@@ -1947,7 +1947,7 @@
                 </div>
                 <div>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="text" id="email" name="email" required>
                 </div>
                 <div>
                     <label for="message">Message:</label>
