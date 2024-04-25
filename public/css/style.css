@@ -5911,7 +5911,7 @@ Services Style
     border-radius: 10px;
     border-top-right-radius: 50px;
     transition: all .1s;
-    min-height: 300px;
+   height: 300px;
 }
 
 .service-item .icon {
