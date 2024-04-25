@@ -2012,7 +2012,8 @@
 
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal fade @if(session()->has('success')) show d-block @endif
+" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">

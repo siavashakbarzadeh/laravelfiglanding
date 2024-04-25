@@ -16,7 +16,7 @@
 /*------------------------------------------------------------------*/
 @font-face {
     font-family:font1;
-    src: url(../bootstrap-5.2.0-dist/font/Rochester-Regular.ttf);
+    /*src: url(../bootstrap-5.2.0-dist/font/Rochester-Regular.ttf);*/
 }
 select {
     /* Reset */
