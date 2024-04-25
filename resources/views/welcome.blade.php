@@ -1988,8 +1988,10 @@
     border-radius: 0.25em;
     box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;"  >
-                        <option value="artista" >Artista</option>
-                        <option value="colezionista" >Collezionista</option>
+                        <option value="artista" style="    color: inherit;
+    background-color: #320a28;" >Artista</option>
+                        <option value="colezionista" style="    color: inherit;
+    background-color: #320a28;" >Collezionista</option>
                     </select>
                 </div>
                 <div class="my-2">
