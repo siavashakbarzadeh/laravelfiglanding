@@ -567,6 +567,7 @@ a.full_link{
     width: 100%;
     height: 80px;
     line-height: 80px;
+    border: none;
 }
 .metaportal_fn_protected .submit:hover:after,
 .metaportal_fn_button:hover:after{
