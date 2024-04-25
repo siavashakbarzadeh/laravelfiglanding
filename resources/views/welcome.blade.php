@@ -1972,10 +1972,9 @@
                 </div>
                 <div class="my-2">
                     <label for="user_type" class="text-white p-2">Type of User:</label>
-                    <select id="user_type" name="user_type" required style="background-color: transparent;
-                    border: palevioletred 2px solid;">
-                        <option value="artista" class="text-white">Artista</option>
-                        <option value="colezionista" class="text-white">Collezionista</option>
+                    <select id="user_type" name="user_type" required class="text-white bg-transparent" style="background-color: transparent;">
+                        <option value="artista" class="text-white bg-transparent">Artista</option>
+                        <option value="colezionista" class="text-white bg-transparent">Collezionista</option>
                     </select>
                 </div>
                 <div class="my-2">
