@@ -2001,9 +2001,9 @@
                     </label>
                 </div>
                 <div class="mw300">
-                    <button type="submit" id="send_message" class="metaportal_fn_button full">
+                    <a type="submit" id="send_message" style="outline: none;" class="metaportal_fn_button full">
                         <span>Send Message</span>
-                    </button>
+                    </a>
                 </div>
 {{--                <div>--}}
 {{--                    <button type="submit">Send Message</button>--}}
