@@ -20,7 +20,7 @@
 }
 select option {
     color: inherit;
-    background-color: #320a28;
+    background-color: #7000ff;
 }
 select:focus {
     outline: none;
