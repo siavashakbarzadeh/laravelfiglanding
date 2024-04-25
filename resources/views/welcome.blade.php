@@ -1970,15 +1970,24 @@
                     <label for="message" class="text-white p-2">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
-                <select>
-                    <option selected value="0">Pure CSS Select</option>
-                    <option value="1">No Wrapper</option>
-                    <option value="2">No JS</option>
-                    <option value="3">Nice!</option>
-                </select>
+
                 <div class="my-2">
                     <label for="user_type" class="text-white p-2">Type of User:</label>
-                    <select id="user_type" name="user_type" required  >
+                    <select id="user_type" name="user_type" style="-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 20em;
+    height: 3em;
+    padding: 0 4em 0 1em;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center/1.4em, linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+    color: white;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;"  >
                         <option value="artista" >Artista</option>
                         <option value="colezionista" >Collezionista</option>
                     </select>
