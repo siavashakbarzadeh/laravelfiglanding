@@ -1970,6 +1970,12 @@
                     <label for="message" class="text-white p-2">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
+                <select>
+                    <option selected value="0">Pure CSS Select</option>
+                    <option value="1">No Wrapper</option>
+                    <option value="2">No JS</option>
+                    <option value="3">Nice!</option>
+                </select>
                 <div class="my-2">
                     <label for="user_type" class="text-white p-2">Type of User:</label>
                     <select id="user_type" name="user_type" required  >
