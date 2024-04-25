@@ -1972,7 +1972,8 @@
                 </div>
                 <div>
                     <label for="user_type" class="text-white p-2">Type of User:</label>
-                    <select id="user_type" name="user_type" required>
+                    <select id="user_type" name="user_type" required style="background-color: transparent;
+                    border: palevioletred 2px solid;">
                         <option value="artista">Artista</option>
                         <option value="colezionista">Collezionista</option>
                     </select>
