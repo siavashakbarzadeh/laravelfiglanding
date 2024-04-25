@@ -1970,7 +1970,7 @@
                     <label for="message" class="text-white p-2">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
-                <div>
+                <div class="my-2">
                     <label for="user_type" class="text-white p-2">Type of User:</label>
                     <select id="user_type" name="user_type" required style="background-color: transparent;
                     border: palevioletred 2px solid;">
@@ -1978,15 +1978,20 @@
                         <option value="colezionista">Collezionista</option>
                     </select>
                 </div>
-                <div>
-                    <label for="accept_rules">
+                <div class="my-2">
+                    <label for="accept_rules" class="text-white">
                         <input type="checkbox" id="accept_rules" name="accept_rules" required>
                         I accept the rules and conditions
                     </label>
                 </div>
-                <div>
-                    <button type="submit">Send Message</button>
+                <div class="mw300">
+                    <button type="submit" id="send_message" class="metaportal_fn_button full">
+                        <span>Send Message</span>
+                    </button>
                 </div>
+{{--                <div>--}}
+{{--                    <button type="submit">Send Message</button>--}}
+{{--                </div>--}}
             </form>
 
         </div>
