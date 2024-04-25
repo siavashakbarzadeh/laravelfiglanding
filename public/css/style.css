@@ -2225,7 +2225,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
     color: #fff;
 }
 .fn_cs_contact_form textarea:focus,
-.fn_cs_contact_form input[type="text"]:focus{
+.fn_cs_contact_form input[type="text"]:focus,.fn_cs_contact_form select:focus{
     border-color: var(--mc1);
 }
 .fn_cs_contact_form li{
