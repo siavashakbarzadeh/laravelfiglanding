@@ -2043,7 +2043,11 @@
             </div>
             <div class="right_part">
                 <ul>
-                    <li><a class="creative_link" href="privacy-policy.html">Privacy Policy</a></li>
+                    <li>
+                        <a class="creative_link" href="https://www.iubenda.com/privacy-policy/20286869">Privacy Policy</a>
+                        <a href="https://www.iubenda.com/privacy-policy/20286869" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a>
+                        <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+                    </li>
                     <li>
                         <a class="creative_link" href="https://www.iubenda.com/privacy-policy/20286869/cookie-policy">Cookies</a>
                         <script type="text/javascript">
