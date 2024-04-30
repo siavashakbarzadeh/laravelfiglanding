@@ -2034,25 +2034,62 @@
     </div>
 </section>
 
-
 <!-- Footer -->
 <footer id="footer" class="mt-4">
-    <div class="container ">
+    <div class="container">
         <div class="footer">
             <div class="left_part">
-                <p>Copyright 2022 — Designed &amp; Developed by <a href="" target="_blank">Aida Allahverdi</a></p>
+                <p>Copyright 2022 — Designed & Developed by <a href="" target="_blank">Aida Allahverdi</a></p>
             </div>
             <div class="right_part">
                 <ul>
                     <li><a class="creative_link" href="privacy-policy.html">Privacy Policy</a></li>
                     <li><a class="creative_link" href="cookies.html">Cookies</a></li>
-                    <li><a class="creative_link" href="terms-conditions.html">Terms &amp; Conditions</a></li>
+                    <li>
+                        <a class="creative_link iubenda-white iubenda-noiframe iubenda-embed" href="https://www.iubenda.com/termini-e-condizioni/20286869" title="Termini e Condizioni">Terms & Conditions</a>
+                        <script type="text/javascript">
+                            (function (w,d) {
+                                var loader = function () {
+                                    var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];
+                                    s.src = "https://cdn.iubenda.com/iubenda.js";
+                                    tag.parentNode.insertBefore(s,tag);
+                                };
+                                if(w.addEventListener){
+                                    w.addEventListener("load", loader, false);
+                                } else if(w.attachEvent){
+                                    w.attachEvent("onload", loader);
+                                } else {
+                                    w.onload = loader;
+                                }
+                            })(window, document);
+                        </script>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
 </footer>
 <!-- !Footer -->
+
+{{--<!-- Footer -->--}}
+{{--<footer id="footer" class="mt-4">--}}
+{{--    <div class="container ">--}}
+{{--        <div class="footer">--}}
+{{--            <div class="left_part">--}}
+{{--                <p>Copyright 2022 — Designed &amp; Developed by <a href="" target="_blank">Aida Allahverdi</a></p>--}}
+{{--            </div>--}}
+{{--            <div class="right_part">--}}
+{{--                <ul>--}}
+{{--                    <li><a class="creative_link" href="privacy-policy.html">Privacy Policy</a></li>--}}
+{{--                    <li><a class="creative_link" href="cookies.html">Cookies</a></li>--}}
+{{--                    <li><a class="creative_link" href="terms-conditions.html">Terms &amp; Conditions</a></li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</footer>--}}
+{{--<!-- !Footer -->--}}
+
 
 </div>
 <!-- !Content -->
