@@ -2044,6 +2044,7 @@
             <div class="right_part">
                 <ul>
                     <li><a class="creative_link" href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a class="creative_link" href="cookies.html">Cookies</a></li>
                     <li>
                         <a class="creative_link iubenda-white iubenda-noiframe iubenda-embed" href="https://www.iubenda.com/privacy-policy/20286869/cookie-policy" title="Cookie Policy">Cookie Policy</a>
                         <script type="text/javascript">
