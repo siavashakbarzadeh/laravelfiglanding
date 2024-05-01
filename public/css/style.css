@@ -5420,6 +5420,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
     .fn_cs_about .left_part{
         width: 100%;
         justify-content: center;
+        padding-bottom: 0px;
     }
     .fn_cs_about .left_part .bg_overlay{
         right: 0;
@@ -5429,6 +5430,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
         /* padding-left: 20px; */
         padding-right: 20px;
         padding-top: 0;
+        padding-bottom: 0px;
     }
     .fn_cs_about .right_in{
         max-width: 100%;
