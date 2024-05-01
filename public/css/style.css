@@ -16,7 +16,7 @@
 /*------------------------------------------------------------------*/
 @font-face {
     font-family:font1;
-    /*src: url(../bootstrap-5.2.0-dist/font/Rochester-Regular.ttf);*/
+    src: url(../bootstrap-5.2.0-dist/font/Rochester-Regular.ttf);
 }
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 
@@ -6831,8 +6831,9 @@ About Us
     font-size: 23px;
     letter-spacing: 1px;
 }
-.circular--portrait { position:relative;margin: 10px auto; width:200px; height: 200px; overflow: hidden; border-radius: 50%;}
-.circular--portrait img { width: 100%; height: auto;  }
+.circular--portrait {background-color: red !important; position:relative;margin: 10px auto; width:200px; height: 200px; overflow: hidden; border-radius: 50%;}
+.circular--portrait img { width: 100%; height: auto; 
+ }
 
 
 /* <select> styles */
