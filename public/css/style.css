@@ -6702,7 +6702,7 @@ About Us
 
 .slider-1 .card-body {
     padding: 0;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .slider-1 .quotes {
@@ -6750,7 +6750,7 @@ About Us
     font-size: 23px;
     letter-spacing: 1px;
 }
-.circular--portrait {background-color: red !important; position:relative;margin: 10px auto; width:200px; height: 200px; overflow: hidden; border-radius: 50%;}
+.circular--portrait { position:relative;margin: 10px auto; width:200px; height: 200px; overflow: hidden; border-radius: 50%;}
 .circular--portrait img { width: 100%; height: auto; 
  }
  @media(max-width: 1040px){
@@ -7242,7 +7242,7 @@ height: 500px;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: red;
+    /* background-color: red; */
     /* background-image: url(../img/card123.jpg); */
     /* -webkit-filter: hue-rotate(20deg);
     filter: hue-rotate(20deg); */
