@@ -18,7 +18,7 @@
     font-family:font1;
     src: url(../bootstrap-5.2.0-dist/font/Rochester-Regular.ttf);
 }
-@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+/* @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500); */
 
 select {
     /* Reset */
@@ -626,9 +626,9 @@ a.full_link{
     background: -moz-linear-gradient(45deg,var(--mc1),var(--mc2),var(--mc1),var(--mc2)) border-box;
     background: -webkit-linear-gradient(45deg,var(--mc1),var(--mc2),var(--mc1),var(--mc2)) border-box;
     background: linear-gradient(45deg,var(--mc1),var(--mc2),var(--mc1),var(--mc2)) border-box;
-    -webkit-mask:
+    /* -webkit-mask:
         linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0);
+        linear-gradient(#fff 0 0); */
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
     background-size: 300% 300%;
@@ -2033,7 +2033,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
     background: -webkit-linear-gradient(bottom left, var(--mc1), var(--mc2), var(--mc1), var(--mc2)) border-box;
     background: -o-linear-gradient(bottom left, var(--mc1), var(--mc2), var(--mc1), var(--mc2)) border-box;
     background: linear-gradient(to top right, var(--mc1), var(--mc2), var(--mc1), var(--mc2)) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    /* -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0); */
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
     background-size: 300% 300%;
@@ -2300,7 +2300,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
     background: -webkit-linear-gradient(bottom left, var(--mc1), var(--mc2), var(--mc1), var(--mc2)) border-box;
     background: -o-linear-gradient(bottom left, var(--mc1), var(--mc2), var(--mc1), var(--mc2)) border-box;
     background: linear-gradient(to top right, var(--mc1), var(--mc2), var(--mc1), var(--mc2)) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    /* -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0); */
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
     background-size: 300% 300%;
@@ -2784,7 +2784,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
     background: -moz-linear-gradient(45deg,var(--mc1),var(--mc2),var(--mc1),var(--mc2)) border-box;
     background: -webkit-linear-gradient(45deg,var(--mc1),var(--mc2),var(--mc1),var(--mc2)) border-box;
     background: linear-gradient(45deg,var(--mc1),var(--mc2),var(--mc1),var(--mc2)) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    /* -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0); */
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
     background-size: 300% 300%;
@@ -4971,7 +4971,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
     margin: 0;
     padding: 0;
     padding-left: 10px;
-    margin-bottom: 3 px;
+    /* margin-bottom: 3 px; */
     width: 100%;
 }
 .metaportal_fn_filters .items > li:last-child{
@@ -5827,9 +5827,9 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 /* CSS specific to iOS devices */
 @supports (-webkit-touch-callout: none) {
     .metaportal_fn_protected .submit:after, .metaportal_fn_button:after{
-        -webkit-mask:none;
-        -webkit-mask-composite: none;
-        mask-composite: none;
+        /* -webkit-mask:none; */
+        /* -webkit-mask-composite: none; */
+        /* mask-composite: none; */
         background: #161025;
     }
     .metaportal_fn_protected input[type="submit"],
@@ -6836,6 +6836,6 @@ About Us
  }
 
 
-/* <select> styles */
+
 
 
