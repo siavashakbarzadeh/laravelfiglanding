@@ -6309,6 +6309,7 @@ The Clients
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .down-content img {
@@ -6565,7 +6566,7 @@ About Us
     }
     .the-clients{
 
-        margin-bottom: 600px;
+        margin-bottom: 100px;
     }
 
 }
@@ -7201,6 +7202,16 @@ About Us
     .circular--portrait { position:relative;margin: 10px auto; width:200px; height: 200px; overflow: hidden; border-radius: 50%;}
     .circular--portrait img { width: 100%; height: auto; 
      }
+     .the-clients{
+
+        margin-bottom: 1px !important;
+    }
+    #about{
+        padding: 0px 0px 20px  !important;
+    }
+    #news{
+        padding:144px 0px 20px !important;
+    }
   
 }
 
