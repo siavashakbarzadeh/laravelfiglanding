@@ -459,8 +459,8 @@
         <!-- !Home Section -->
         <!-- About Shortcode -->
         <div class="fn_cs_about">
-            <div class=" left_part">
-                <div class="col-md-6 ml-sm-0">
+            <div class=" left_part p-0">
+                <div class="col-md-6">
                     <h3 class="fn__maintitle big" data-text="Sei un Artista">Sei un Artista</h3>
                     <div class="desc">
                         <p><span class="fn__maintitle small" data-text="Ascolta-Risveglia-Trasforma" style="font-weight: bolder;">Ascolta-Risveglia-Trasforma</span> la tua <br/>
