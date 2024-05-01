@@ -1000,7 +1000,7 @@ transform: rotate(-90deg); */
     background: -moz-linear-gradient(var(--mc1), var(--mc2));
     background: -webkit-linear-gradient(var(--mc1), var(--mc2));
     background: linear-gradient(var(--mc1), var(--mc2));
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     content: attr(data-text);
 }
@@ -1428,7 +1428,7 @@ transform: rotate(-90deg); */
     background: -moz-linear-gradient(90deg,var(--mc1), var(--mc2));
     background: -webkit-linear-gradient(90deg,var(--mc1), var(--mc2));
     background: linear-gradient(to right,var(--mc1), var(--mc2));
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-stroke: 4px transparent;
     color: #160f1a;
     filter: drop-shadow(0 5px 20px rgba(204,0,255,.15));
@@ -2853,7 +2853,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
     background-position: -100%;
     display: inline-block;
     position: relative;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
 }
