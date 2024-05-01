@@ -52,7 +52,7 @@ function toggleDropdown(e) {
 // On hover
 const dropdownCheck = document.querySelector('.dropdown');
 
-if (dropdownCheck !== null) { 
+if (dropdownCheck !== null) {
 	document.querySelector(".dropdown").addEventListener("mouseleave", toggleDropdown);
 	document.querySelector(".dropdown").addEventListener("mouseover", toggleDropdown);
 
@@ -69,12 +69,12 @@ if (dropdownCheck !== null) {
 		}
 	});
 }
-  
+// change here
 
 /* Card Slider - Swiper */
 var cardSlider = new Swiper('.card-slider', {
 	autoplay: {
-		delay: 5000,
+		delay: 2000,
 		disableOnInteraction: false
 	},
 	loop: true,
@@ -96,7 +96,7 @@ var cardSlider = new Swiper('.card-slider', {
 /* Filter - Isotope */
 const gridCheck = document.querySelector('.grid');
 
-if (gridCheck !== null) { 
+if (gridCheck !== null) {
 	// init Isotope
 	var iso = new Isotope( '.grid', {
 		itemSelector: '.element-item',
@@ -114,14 +114,14 @@ if (gridCheck !== null) {
 		// use matching filter function
 		iso.arrange({ filter: filterValue });
 	});
-	
+
 	// change is-checked class on buttons
 	var buttonGroups = document.querySelectorAll('.button-group');
 	for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
 		var buttonGroup = buttonGroups[i];
 		radioButtonGroup( buttonGroup );
 	}
-	
+
 	function radioButtonGroup( buttonGroup ) {
 		buttonGroup.addEventListener( 'click', function( event ) {
 			// only work with buttons
