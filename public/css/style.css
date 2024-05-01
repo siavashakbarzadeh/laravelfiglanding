@@ -18,6 +18,8 @@
     font-family:font1;
     /*src: url(../bootstrap-5.2.0-dist/font/Rochester-Regular.ttf);*/
 }
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
 select {
     /* Reset */
     -webkit-appearance: none;
@@ -706,8 +708,8 @@ a.full_link{
     margin-right: 30px;
 }
 /* .metaportal_fn_totop  */
-/* .fn__svg{
-	position: absolute;
+/* .fn__svg{ */
+	/* position: absolute;
 	display: block;
 	z-index: 3;
 	width: 20px;
@@ -715,22 +717,22 @@ a.full_link{
 	left: 10px;
 	top: 50%;
 	background-color: white;
-	/* border: solid 1px red; */
+	border: solid 1px red;
 margin: -10px 0 0 -10px;
 -moz-transform: rotate(-90deg);
 -webkit-transform: rotate(-90deg);
-transform: rotate(-90deg);
-} */
-.metaportal_fn_totop .icon:after{
-    content: '';
+transform: rotate(-90deg); */
+/* } */
+/* .metaportal_fn_totop .icon:after{ */
+    /* content: '';
     position: absolute;
     z-index: -1;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    color: white;
-    /* color: var(--mc1); */
+    color: white; */
+    /* color: var(--mc1);
     opacity: .15;
     border-radius: 100%;
     box-shadow: 0px 5px 20px;
@@ -758,7 +760,7 @@ transform: rotate(-90deg);
     -ms-align-items: center;
     align-items: center;
     /* background-color: white; */
-}
+/* } */
 
 
 
@@ -6649,7 +6651,7 @@ About Us
         margin-bottom: 600px;
     }
 }
-@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
 .team3 {
     font-family: "Montserrat", sans-serif;
     color: #8d97ad;
@@ -6829,7 +6831,7 @@ About Us
     font-size: 23px;
     letter-spacing: 1px;
 }
-.circular--portrait { position:relative;margin: 10px auto; width:200px; height: 200px; overflow: hidden; border-radius: 50%; border: solid 1px red;}
+.circular--portrait { position:relative;margin: 10px auto; width:200px; height: 200px; overflow: hidden; border-radius: 50%;}
 .circular--portrait img { width: 100%; height: auto;  }
 
 
