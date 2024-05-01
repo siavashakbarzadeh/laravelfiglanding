@@ -5823,7 +5823,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
     margin: 0;
 }
 /* CSS specific to iOS devices */
-@supports -webkit-touch-callout: none) {
+@supports (-webkit-touch-callout: none) {
     .metaportal_fn_protected .submit:after, .metaportal_fn_button:after{
         -webkit-mask:none;
         -webkit-mask-composite: none;
