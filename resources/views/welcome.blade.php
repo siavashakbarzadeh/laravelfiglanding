@@ -535,7 +535,7 @@
 
                 <h4 class="fn__maintitle big  pb-4" data-text="I tuoi primi 3 passi…" data-align="center">I tuoi primi 3 passi…</h4>
                 <div class="row">
-                    <div class="col-md-2 mb-4">
+                    <div class="col-md-12 mb-4">
                         <div class="circle"> Artista</div>
 
 
