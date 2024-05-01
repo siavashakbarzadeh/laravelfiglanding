@@ -5420,17 +5420,15 @@ a.metaportal_fn_videobutton:hover .fn__svg,
     .fn_cs_about .left_part{
         width: 100%;
         justify-content: center;
-        padding-bottom: 0px;
     }
     .fn_cs_about .left_part .bg_overlay{
         right: 0;
     }
     .fn_cs_about .right_part{
         width: 100%;
-        /* padding-left: 20px; */
+        padding-left: 20px;
         padding-right: 20px;
         padding-top: 0;
-        padding-bottom: 0px;
     }
     .fn_cs_about .right_in{
         max-width: 100%;
@@ -5682,6 +5680,12 @@ a.metaportal_fn_videobutton:hover .fn__svg,
     .social a,
     .social a:after{
         font-size: 14px;
+    }
+    .fn_cs_about .right_part{
+        background-color: red;
+    }
+    .fn_cs_about .left_part{
+        background-color: red;
     }
 }
 
@@ -6652,6 +6656,7 @@ About Us
 
         margin-bottom: 600px;
     }
+
 }
 
 .team3 {
