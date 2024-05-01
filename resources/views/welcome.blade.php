@@ -2141,10 +2141,10 @@
     <div class="social">
         <h4 class="title">Follow Us:</h4>
         <ul>
-            <li><a href="https://www.facebook.com/" target="_blank">Fb.</a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="svg/social/facebook-1.svg" alt="" class="fn__svg"></a></li>
             <li><a href="https://www.twitter.com/" target="_blank"><img src="svg/social/twitter-1.svg" alt="" class="fn__svg"></a></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank">In.</a></li>
-            <li><a href="https://www.linkedin.com/" target="_blank">Ln.</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="svg/social/instagram-1.svg" alt="" class="fn__svg"></a></li>
+            <li><a href="https://https://www.pinterest.it/" target="_blank"><img src="svg/social/pinterest-1.svg" alt="" class="fn__svg"></a></li>
         </ul>
     </div>
 </div>
