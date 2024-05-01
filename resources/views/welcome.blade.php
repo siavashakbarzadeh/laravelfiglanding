@@ -1958,19 +1958,6 @@
         <div class="fn_cs_contact_form">
             <form action="{{ route('messages.store') }}" method="POST">
                 @csrf
-                <div>
-                    <label for="name" class="text-white p-2">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div>
-                    <label for="email" class="text-white p-2">Email:</label>
-                    <input type="text" id="email" name="email" required>
-                </div>
-                <div>
-                    <label for="message" class="text-white p-2">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-
                 <div class="my-2">
                     <label for="user_type" class="text-white p-2">Type of User:</label>
                     <select id="user_type" name="user_type" style="-webkit-appearance: none;
@@ -1994,6 +1981,20 @@
     background-color: #7000ff;" >Collezionista</option>
                     </select>
                 </div>
+                <div>
+                    <label for="name" class="text-white p-2">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email" class="text-white p-2">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message" class="text-white p-2">Message:</label>
+                    <textarea id="message" name="message" ></textarea>
+                </div>
+
+
                 <div class="my-2">
                     <label for="accept_rules" class="text-white">
                         <input type="checkbox" id="accept_rules" name="accept_rules" required>
