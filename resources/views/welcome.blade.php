@@ -50,6 +50,7 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('css/plugins.css?ver=3.1') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css?ver=3.1') }}" />
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/media.css') }}" />
 
     <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/teams/team-1/assets/css/team-1.css">
 
