@@ -2047,13 +2047,13 @@
                     A breve riceverai una mail dal nostro team con tante belle notizie e sorprese artistiche.
 
                     </p> 
-                    <br/>
+                    
                     <p>
                     Nel frattempo, tieni d'occhio la tua casella di posta... il divertimento sta per iniziare!
-                    </p>
-                    <div class="name">
+                    <br>
                     Il team Figarte
-                    </div>
+                    </p>
+
 
                 </div>
 
