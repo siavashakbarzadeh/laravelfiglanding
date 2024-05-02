@@ -1378,7 +1378,7 @@
                                         <span class="cc text-white"><span>05</span></span>
                                     </div>
                                     <div class="meta">
-                                        <p>Amir Reza Allahverdi</p>
+                                        <p>AmirReza Allahverdi</p>
                                     </div>
                                     <!--<p>-->
                                     <!--	Esempio: Descrivi in pochissime righe la storia e le competenze del componente del team.-->
