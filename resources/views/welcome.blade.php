@@ -2067,30 +2067,7 @@
 
     </div>
 </section>
-<script>
-// Get the modal
-var modal = document.getElementById('successModal');
-var closeButton = document.querySelector('.close-button');
 
-// Close the modal when the close button is clicked
-closeButton.onclick = function() {
-    modal.style.display = 'none';
-}
-
-// Automatically close the modal after a set time if it is shown
-if(modal.classList.contains('show')) {
-    setTimeout(function() {
-        modal.style.display = 'none';
-    }, 5000); // Close the modal after 5 seconds
-}
-
-// Close the modal when the user clicks outside of the modal content area
-window.onclick = function(event) {
-    if (event.target === modal) {
-        modal.style.display = 'none';
-    }
-}
-</script>
 
 
 <!-- Footer -->
@@ -2261,6 +2238,38 @@ window.onclick = function(event) {
 
 
 
+</script>
+
+<script>
+// Get the modal element
+var modal = document.getElementById('successModal');
+
+// Get the close button element
+var closeButton = document.querySelector('.close-button');
+
+// Function to close the modal
+function closeModal() {
+    modal.style.display = 'none';  // Hides the modal
+    modal.classList.remove('show'); // Optionally removes the show class
+    modal.classList.remove('d-block'); // Removes the block display
+}
+
+// Event listener for the close button
+closeButton.addEventListener('click', function() {
+    closeModal();
+});
+
+// Optional: Close the modal if the user clicks outside of it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        closeModal();
+    }
+}
+
+// Optional: Automatically close the modal after a certain time
+setTimeout(function() {
+    closeModal();
+}, 5000);  // Closes the modal after 5 seconds
 </script>
 
 
