@@ -26,6 +26,6 @@ class MessageController extends Controller
             'user_type' => $request->user_type
         ]);
 
-        return back()->with('success', 'Message sent successfully!');
+        return back()->with('success', '');
     }
 }
