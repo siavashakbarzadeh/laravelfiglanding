@@ -2024,13 +2024,6 @@
                     <div class="wave"></div>
                     <div class="wave"></div>
                     <div class="wave"></div>
-                <div class=" modalone">
-                <!-- <div class="modalDesign"> -->
-                    <div class="modal-header">
-                    <a href="#"><img src="img/logo12.svg" alt="" class="icon"></a>
-                        <!-- <h5 class="modal-title" id="successModalLabel">Success</h5> -->
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
                     <div class="modal-body infotop">
                         {{ session('success') }}
                         <a href="#"><img src="img/logo12.svg" alt="" class="icon"></a>
@@ -2056,6 +2049,14 @@
                     </p> 
 
                     </div>
+                <div class=" modalone">
+                <!-- <div class="modalDesign"> -->
+                    <div class="modal-header">
+                    <a href="#"><img src="img/logo12.svg" alt="" class="icon"></a>
+                        <!-- <h5 class="modal-title" id="successModalLabel">Success</h5> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    
                     <!-- <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div> -->
