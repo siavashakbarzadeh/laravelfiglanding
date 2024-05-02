@@ -623,7 +623,7 @@
                             <h4>Nuove competenze
                             </h4>
                             <p>
-                                In 8 settimane sarai in grado di acquisire <span class="fn__maintitle small" data-text="nuove competenze" style="font-weight: bolder;">nuove competenze</span>, avere <span class="fn__maintitle small" data-text="nuove conoscenze" style="font-weight: bolder;">nuove conoscenze</span> e trasformare la tua <span class="fn__maintitle small" data-text="passione" style="font-weight: bolder;">passione</span> in un lavoro <span class="fn__maintitle small" data-text="remunerativo" style="font-weight: bolder;">remunerativo</span>
+                                In 8 settimane sarai in grado di acquisire <span class="fn__maintitle small" data-text="nuove competenze" style="font-weight: bolder;">nuove competenze</span>, avere <span class="fn__maintitle small" data-text="nuove conoscenze" style="font-weight: bolder;">nuove conoscenze</span> e trasformare la tua <span class="fn__maintitle small" data-text="passione" style="font-weight: bolder;">passione</span> in un lavoro <span class="fn__maintitle small" data-text="redditizio" style="font-weight: bolder;">redditizio</span>
                             </p>
                             <p></p>
                             <p></p>
