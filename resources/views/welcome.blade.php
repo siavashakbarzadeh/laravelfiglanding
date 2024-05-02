@@ -2024,7 +2024,7 @@
                     <div class="wave"></div>
                     <div class="wave"></div>
                     <div class="wave"></div>
-                <div class=" modalone">
+                
                 <!-- <div class="modalDesign"> -->
                     <div class="modal-header">
                     <!-- <a href="#"><img src="img/logo12.svg" alt="" class="icon"></a> -->
@@ -2060,10 +2060,10 @@
                     </div>
                     </div>
 
-                    </div>
-                    <div class="modal-footer">
+                    
+                    <!-- <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
+                    </div> -->
                 </div>
                     <!-- <div class="e-card playing" >
 
