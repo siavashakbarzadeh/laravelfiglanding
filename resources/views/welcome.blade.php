@@ -2025,7 +2025,7 @@
                     <div class="wave"></div>
                     <div class="wave"></div>
                 <div class="modal-body infotop">
-                        <!-- {{ session('success') }} -->
+                        {{ session('success') }}
                         <a href="#"><img src="img/logo12.svg" alt="" class="icon"></a>
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon"> -->
                     <path fill="currentColor" d="M19.4133 4.89862L14.5863 2.17544C12.9911 1.27485 11.0089 1.27485 9.41368 2.17544L4.58674
