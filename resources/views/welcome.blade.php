@@ -2024,7 +2024,7 @@
                     <div class="wave"></div>
                     <div class="wave"></div>
                     <div class="wave"></div>
-                <div class="modal-body infotop">
+                <div class=" infotop">
                         {{ session('success') }}
                         <a href="#"><img src="img/logo12.svg" alt="" class="icon"></a>
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon"> -->
