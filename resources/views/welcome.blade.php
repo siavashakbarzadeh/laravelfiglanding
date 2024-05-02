@@ -2031,7 +2031,7 @@
                         <!-- <h5 class="modal-title" id="successModalLabel">Success</h5> -->
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body infotop">
                         {{ session('success') }}
                         <a href="#"><img src="img/logo12.svg" alt="" class="icon"></a>
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon"> -->
