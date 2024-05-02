@@ -637,7 +637,7 @@
                             <div class="icon mx-auto"></div>
                             <h4>Autonomia</h4>
                             <p>
-                                Sarai <span class="fn__maintitle small" data-text="guidato" style="font-weight: bolder;">guidato</span> nell’utilizzo delle <span class="fn__maintitle small" data-text="nuove tecnologie" style="font-weight: bolder;">nuove tecnologie</span> e <span class="fn__maintitle small" data-text="aumentare" style="font-weight: bolder;">aumentare</span> la tua visibilità in completa <span class="fn__maintitle small" data-text="autonomia" style="font-weight: bolder;">autonomia</span>
+                                Sarai <span class="fn__maintitle small" data-text="guidato" style="font-weight: bolder;">guidato</span> nell’utilizzo delle <span class="fn__maintitle small" data-text="nuove tecnologie" style="font-weight: bolder;">nuove tecnologie</span> e <span class="fn__maintitle small" data-text="aumenterai" style="font-weight: bolder;">aumenterai</span> la tua visibilità in completa <span class="fn__maintitle small" data-text="autonomia" style="font-weight: bolder;">autonomia</span>
                             </p>
 
                         </div>
