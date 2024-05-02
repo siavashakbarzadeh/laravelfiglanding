@@ -7362,9 +7362,9 @@ height: 500px;
   /* The Close Button */
 .close-button {
     position: relative;
-    margin: 10px auto;
-  padding: 16px 30px;
-  font-size: 1.5rem;
+    /* margin: 10px auto; */
+  padding: 10px;
+  font-size: 14px;
   color: var(--color);
   border: 2px solid rgba(0, 0, 0, 0.5);
   border-radius: 4px;
@@ -7388,7 +7388,7 @@ height: 500px;
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--color);
+    background: var(--mc2);
     z-index: -1;
     transform: scale(0);
     transition: 0.5s;
@@ -7397,21 +7397,21 @@ height: 500px;
   .close-button:hover::before {
     transform: scale(1);
     transition-delay: 0.5s;
-    box-shadow: 0 0 10px var(--color),
-      0 0 30px var(--color),
-      0 0 60px var(--color);
+    box-shadow: 0 0 10px var(--mc2),
+      0 0 30px var(--mc2),
+      0 0 60px var(--mc2);
   }
   
   .close-button span {
     position: absolute;
-    background: var(--color);
+    background: var(--mc2);
     pointer-events: none;
     border-radius: 2px;
-    box-shadow: 0 0 10px var(--color),
-      0 0 20px var(--color),
-      0 0 30px var(--color),
-      0 0 50px var(--color),
-      0 0 100px var(--color);
+    box-shadow: 0 0 10px var(--mc2),
+      0 0 20px var(--mc2),
+      0 0 30px var(--mc2),
+      0 0 50px var(--mc2),
+      0 0 100px var(--mc2);
     transition: 0.5s ease-in-out;
     transition-delay: 0.25s;
   }
