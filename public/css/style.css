@@ -7357,3 +7357,19 @@ height: 500px;
       transform: rotate(360deg);
     }
   }
+
+
+  /* The Close Button */
+.close-button {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
