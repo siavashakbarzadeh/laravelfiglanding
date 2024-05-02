@@ -2031,7 +2031,7 @@
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div> -->
-                <div class="e-card playing">
+                <div class="e-card playing" id="successModalLabel">
                     <div class="modal-header">
                     <h5 class="modal-title">Modal title</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
