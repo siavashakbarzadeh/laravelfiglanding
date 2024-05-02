@@ -2228,10 +2228,11 @@ A breve riceverai una mail dal nostro team con tante belle notizie e sorprese ar
 <!-- !Main -->
 
 <!-- Scripts -->
+<script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/jquery.js?ver=3.1') }}"></script>
 <script type="text/javascript" src="{{ asset('js/plugins.js?ver=3.1') }}"></script>
 <script type="text/javascript" src="{{ asset('js/init.js?ver=3.1') }}"></script>
-<script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
+
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
