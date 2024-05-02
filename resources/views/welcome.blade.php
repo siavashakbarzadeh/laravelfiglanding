@@ -2026,10 +2026,11 @@
                     <div class="wave"></div>
                 <div class=" modalone">
                 <!-- <div class="modalDesign"> -->
-                    <!-- <div class="modal-header"> -->
-                        <h5 class="modal-title" id="successModalLabel">Success</h5>
+                    <div class="modal-header">
+                    <a href="#"><img src="img/logo12.svg" alt="" class="icon"></a>
+                        <!-- <h5 class="modal-title" id="successModalLabel">Success</h5> -->
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <!-- </div> -->
+                    </div>
                     <div class="modal-body">
                         {{ session('success') }}
                     </div>
