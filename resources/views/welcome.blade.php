@@ -174,8 +174,9 @@
                         </li>
                     </ul>
                 </li> -->
-                <li><a class="creative_link" href="#who">Chi Siamo</a></li>
                 <li><a href="#Collezionisti"><span class="creative_link">Collezionisti</span></a></li>
+                <li><a class="creative_link" href="#who">Chi Siamo</a></li>
+               
                 <li><a href="#Contact"><span class="creative_link">Contact</span></a></li>
             </ul>
         </div>
