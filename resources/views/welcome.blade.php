@@ -2017,14 +2017,15 @@
         <!-- Modal -->
         <div class="modal  fade @if(session()->has('success')) show d-block @endif
 " id="successModal" tabindex="-1" aria-labelledby="successModalLabel" data-toggle="modal" aria-hidden="true">
-            <div class="modal-dialog e-card playing ">
+            <div class="e-card playing ">
+                <!-- modal-dialog  -->
                     <div class="image"></div>
 
                     <div class="wave"></div>
                     <div class="wave"></div>
                     <div class="wave"></div>
                 <div class=" modalone">
-                <div class="modalDesign">
+                <!-- <div class="modalDesign"> -->
                     <!-- <div class="modal-header"> -->
                         <h5 class="modal-title" id="successModalLabel">Success</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
