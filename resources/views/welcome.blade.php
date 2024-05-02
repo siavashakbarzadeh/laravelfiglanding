@@ -2053,8 +2053,14 @@
                     <br>
                     Il team Figarte
                     </p>
-                    <span class="close-button">close</span>
-
+                    <!-- <span class="close-button">close</span> -->
+                    <a class="close-button" href="#" style="--color:#1e9bff;">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    Close
+  </a>
 
                 </div>
 
