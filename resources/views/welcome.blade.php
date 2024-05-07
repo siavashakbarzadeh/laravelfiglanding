@@ -2061,7 +2061,7 @@
                     <br>
                     Il team Figarte
                     </p>
-                    <span class="close-button">close</span>
+                    <span class="metaportal_fn_button">close</span>
 
 
                 </div>
