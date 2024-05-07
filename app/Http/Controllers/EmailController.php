@@ -33,7 +33,7 @@ class EmailController extends Controller
         $user->message = $request->message;  // Ensure your User model has a 'message' attribute if you're storing it
         $user->save();
 
-        return back()->with('success', 'Your message has been received, We will contact you soon.');
+        return redirect('/')->with('success', 'Your message has been received, We will contact you soon.');
     }
     public function sendEmail(Request $request)
     {
