@@ -83,8 +83,12 @@
                        src="https://www.facebook.com/tr?id=462386259470041&ev=PageView&noscript=1"
             /></noscript>
 
-
-
+{{--here--}}
+        <!-- Scripts -->
+        <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jquery.js?ver=3.1') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/plugins.js?ver=3.1') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/init.js?ver=3.1') }}"></script>
 
     </head>
 
@@ -2224,11 +2228,7 @@
 </div>
 <!-- !Main -->
 
-<!-- Scripts -->
-<script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.js?ver=3.1') }}"></script>
-<script type="text/javascript" src="{{ asset('js/plugins.js?ver=3.1') }}"></script>
-<script type="text/javascript" src="{{ asset('js/init.js?ver=3.1') }}"></script>
+
 
 
 <script>
