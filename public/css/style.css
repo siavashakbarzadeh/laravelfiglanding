@@ -7283,12 +7283,20 @@ height: 500px;
     width: 370px;
     height: 171px;
 }
+
+@media (min-width:641px)  { 
+    .e-card {
+        width: 480px !important;
+      }
+
+}
+
 .e-card {
     margin: 100px auto;
     background:#0e021f;
     box-shadow: 0px 8px 28px -9px rgba(201, 120, 238, 0.45);
     position: relative;
-    width: 480px !important;
+    width: 320px !important;
     height:350px !important;
     border-radius: 16px;
     overflow: hidden;
