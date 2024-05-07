@@ -13,10 +13,12 @@ class MessageController extends Controller
     {
         $request->validate([
             'name' => 'required|max:255',
-            'email' => 'required|email',
+            'email' => 'required|email|unique:emails,email',
             'message' => 'required',
             'user_type' => 'required|in:artista,colezionista',
             'accept_rules' => 'accepted',
+        ], [
+            'email.unique' => 'This email address has already been submitted.',
         ]);
 
         Email::create([
