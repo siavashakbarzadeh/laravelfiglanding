@@ -55,9 +55,9 @@ var MetaPortalFilterArray		= [];
 				// Main Slider
 				var mainSliderOptions 	= {
 					loop: false,
-					speed: 4500,
+					speed: 1500,
 					autoplay:{
-						delay: 10000,
+						delay: 2000,
 						disableOnInteraction: false,
 					},
 					slidesPerView: 4,
