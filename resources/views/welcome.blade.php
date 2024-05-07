@@ -2128,24 +2128,26 @@
                         </script> -->
                     <!-- </li> -->
                     <li>
-                        <a class="creative_link  iubenda-embed"  href="https://www.iubenda.com/termini-e-condizioni/20286869">Terms & Conditions</a>
+                        <a href="https://www.iubenda.com/termini-e-condizioni/20286869" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Termini e Condizioni ">Termini e Condizioni</a>
+                        <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+{{--                        <a class="creative_link  iubenda-embed"  href="https://www.iubenda.com/termini-e-condizioni/20286869">Terms & Conditions</a>--}}
                         <!-- -->
-                        <script type="text/javascript">
-                            (function (w,d) {
-                                var loader = function () {
-                                    var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];
-                                    s.src = "https://cdn.iubenda.com/iubenda.js";
-                                    tag.parentNode.insertBefore(s,tag);
-                                };
-                                if(w.addEventListener){
-                                    w.addEventListener("load", loader, false);
-                                } else if(w.attachEvent){
-                                    w.attachEvent("onload", loader);
-                                } else {
-                                    w.onload = loader;
-                                }
-                            })(window, document);
-                        </script>
+{{--                        <script type="text/javascript">--}}
+{{--                            (function (w,d) {--}}
+{{--                                var loader = function () {--}}
+{{--                                    var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];--}}
+{{--                                    s.src = "https://cdn.iubenda.com/iubenda.js";--}}
+{{--                                    tag.parentNode.insertBefore(s,tag);--}}
+{{--                                };--}}
+{{--                                if(w.addEventListener){--}}
+{{--                                    w.addEventListener("load", loader, false);--}}
+{{--                                } else if(w.attachEvent){--}}
+{{--                                    w.attachEvent("onload", loader);--}}
+{{--                                } else {--}}
+{{--                                    w.onload = loader;--}}
+{{--                                }--}}
+{{--                            })(window, document);--}}
+{{--                        </script>--}}
                     </li>
                 </ul>
             </div>
