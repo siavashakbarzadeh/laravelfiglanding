@@ -7284,13 +7284,6 @@ height: 500px;
     height: 171px;
 }
 
-@media (min-width:641px)  { 
-    .e-card {
-        width: 480px;
-      }
-
-}
-
 .e-card {
     margin: 100px auto;
     background:#0e021f;
@@ -7303,7 +7296,12 @@ height: 500px;
         -webkit-filter: hue-rotate(50deg);
     filter: hue-rotate(50deg);
   }
+@media (min-width:641px)  { 
+    .e-card {
+        width: 480px;
+      }
 
+}
   .wave {
     position: absolute;
     width: 540px;
