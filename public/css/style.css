@@ -92,6 +92,12 @@ html{
 #footer{
     margin-top: auto;
 }
+.connectW{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* Preloader */
@@ -7088,6 +7094,10 @@ About Us
     .circular--portrait { position:relative;margin: 10px auto; width:200px; height: 200px; overflow: hidden; border-radius: 50%;}
     .circular--portrait img { width: 100%; height: auto;
      }
+    .connectW{
+        margin-bottom: 10px;
+        border:solid 1px red;
+    }
 }
 
  @media(max-width: 480px){
@@ -7212,9 +7222,9 @@ About Us
     #news{
         padding:144px 0px 20px !important;
     }
-    .right_part .desc{
-        margin-bottom:-2px !important;
-    }
+     .connectW{
+         margin-bottom: 10px;
+     }
 
 }
 

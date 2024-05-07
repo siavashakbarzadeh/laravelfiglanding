@@ -176,7 +176,7 @@
                 </li> -->
                 <li><a href="#Collezionisti"><span class="creative_link">Collezionisti</span></a></li>
                 <li><a class="creative_link" href="#who">Chi Siamo</a></li>
-               
+
                 <li><a href="#Contact"><span class="creative_link">Contact</span></a></li>
             </ul>
         </div>
@@ -911,7 +911,7 @@
             </div>
 
             <div class="row " style="margin-top: 50px;margin-bottom: 20px;">
-                <div class="col-md-12" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+                <div class="col-md-12 connectW" >
                     <a href="#Contact" class="metaportal_fn_button"><span>Iscriviti Alla WhiteList
 													<span></a>
                 </div>
@@ -2041,24 +2041,24 @@
                     15.2665 11.4515 13.921C13.1353 12.4181 15.3198 11.5908 17.6022 11.5908C18.3804 11.5908 19.1477 11.6864
                     19.8922 11.8742V14.7235C19.8922 15.2278 19.7589 15.7254 19.5119 16.1662C18.7615 15.3596 17.6806 14.8528
                     16.4783 14.8528C14.2136 14.8528 12.3781 16.6466 12.3781 18.8598C12.3781 19.3937 12.4861 19.9021 12.68
-                    20.3676C11.9347 20.5316 11.1396 20.4203 10.4684 20.0413H10.4676Z"></path></svg><br>      
-                    <p>Grazie per averci lasciato la tua e-mail!<br/>     
+                    20.3676C11.9347 20.5316 11.1396 20.4203 10.4684 20.0413H10.4676Z"></path></svg><br>
+                    <p>Grazie per averci lasciato la tua e-mail!<br/>
                     Hai appena fatto un tuffo nel fantastico mondo di Figarte!
                     A breve riceverai una mail dal nostro team con tante belle notizie e sorprese artistiche.
 
-                    </p> 
-                    
+                    </p>
+
                     <p>
                     Nel frattempo, tieni d'occhio la tua casella di posta... il divertimento sta per iniziare!
                     <br>
                     Il team Figarte
                     </p>
                     <span class="close-button">close</span>
-       
+
 
                 </div>
 
-                   
+
             </div>
         </div>
 
