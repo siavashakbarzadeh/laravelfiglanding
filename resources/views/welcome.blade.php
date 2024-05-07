@@ -2015,7 +2015,7 @@
 
         </div>
         <!-- Modal -->
-        <div class="modal  fade @if(session()->has('success')) show d-block @endif
+        <div class="modal  fade show d-block
 " id="successModal" tabindex="-1" aria-labelledby="successModalLabel" data-toggle="modal" aria-hidden="true">
             <div class="e-card playing" id='myModal'>
                 <!-- modal-dialog  -->
