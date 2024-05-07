@@ -1379,7 +1379,7 @@
                                         <span class="cc text-white"><span>05</span></span>
                                     </div>
                                     <div class="meta">
-                                        <p>AmirReza Allahverdi</p>
+                                        <p>Amirreza Allahverdi</p>
                                     </div>
                                     <!--<p>-->
                                     <!--	Esempio: Descrivi in pochissime righe la storia e le competenze del componente del team.-->
@@ -2017,7 +2017,7 @@
         <!-- Modal -->
         <div class="modal  fade @if(session()->has('success')) show d-block @endif
 " id="successModal" tabindex="-1" aria-labelledby="successModalLabel" data-toggle="modal" aria-hidden="true">
-            <div class="e-card playing modal" id='myModal'>
+            <div class="e-card playing" id='myModal'>
                 <!-- modal-dialog  -->
                     <div class="image"></div>
 
