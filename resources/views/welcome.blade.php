@@ -2017,7 +2017,7 @@
         <!-- Modal -->
         <div class="modal  fade @if(session()->has('success')) show d-block @endif
 " id="successModal" tabindex="-1" aria-labelledby="successModalLabel" data-toggle="modal" aria-hidden="true">
-            <div class="e-card playing " id='myModal'>
+            <div class="e-card playing modal" id='myModal'>
                 <!-- modal-dialog  -->
                     <div class="image"></div>
 
