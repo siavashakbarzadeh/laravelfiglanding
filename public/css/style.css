@@ -7098,6 +7098,9 @@ About Us
         margin-bottom: 86px;
 
     }
+    #news .fn__maintitle {
+        margin-bottom: 62px;
+    }
 }
 
  @media(max-width: 480px){
@@ -7224,6 +7227,9 @@ About Us
     }
      .connectW{
          margin-bottom: 86px;
+     }
+     #news .fn__maintitle {
+         margin-bottom: 62px;
      }
 
 }
