@@ -7213,7 +7213,7 @@ About Us
         padding:144px 0px 20px !important;
     }
     .right_part .desc{
-        margin-bottom:2px;
+        margin-bottom:-2px;
     }
 
 }
