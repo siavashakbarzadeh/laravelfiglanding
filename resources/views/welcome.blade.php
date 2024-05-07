@@ -2015,7 +2015,7 @@
 
         </div>
         <!-- Modal -->
-        <div class="modal  fade show d-block
+        <div class="modal  fade @if(session()->has('success')) show d-block @endif
 " id="successModal" tabindex="-1" aria-labelledby="successModalLabel" data-toggle="modal" aria-hidden="true">
             <div class="e-card playing" id='myModal'>
                 <!-- modal-dialog  -->
@@ -2265,11 +2265,6 @@ window.onclick = function(event) {
         closeModal();
     }
 }
-
-// Optional: Automatically close the modal after a certain time
-setTimeout(function() {
-    closeModal();
-}, 5000);  // Closes the modal after 5 seconds
 </script>
 
 
