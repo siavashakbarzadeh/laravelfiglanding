@@ -1993,11 +1993,15 @@
                 </div>
                 <div>
                     <label for="name" class="text-white p-2">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <label class="d-block w-100">
+                        <input type="text" id="name" name="name" required>
+                    </label>
                 </div>
                 <div>
                     <label for="email" class="text-white p-2">Email:</label>
-                    <input type="text" id="email" name="email" required>
+                    <label class="d-block w-100">
+                        <input type="text" id="email" name="email" required>
+                    </label>
                 </div>
                 <div>
                     <label for="message" class="text-white p-2">Message:</label>
