@@ -1993,13 +1993,13 @@
                 </div>
                 <div>
                     <label for="name" class="text-white p-2">Name:</label>
-                    <label class="d-block w-100">
+                    <label class="d-block w-100" for="name">
                         <input type="text" id="name" name="name" required>
                     </label>
                 </div>
                 <div>
                     <label for="email" class="text-white p-2">Email:</label>
-                    <label class="d-block w-100">
+                    <label class="d-block w-100" for="email">
                         <input type="text" id="email" name="email" required>
                     </label>
                 </div>
