@@ -2005,7 +2005,9 @@
                 </div>
                 <div>
                     <label for="message" class="text-white p-2">Message:</label>
-                    <textarea id="message" name="message" ></textarea>
+                    <label class="d-block w-100" for="message">
+                        <textarea id="message" name="message" ></textarea>
+                    </label>
                 </div>
 
 
