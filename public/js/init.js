@@ -110,7 +110,7 @@ var MetaPortalFilterArray		= [];
 
 		translateVal: function(el) {
 			var progress = el.style.transform.match(/translate3d\((.+)px,(.+)px,(.+)px\)/);
-			return progress[0];
+			return progress[1];
 		},
 
 		menuCenter: function(){
