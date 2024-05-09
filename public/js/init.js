@@ -54,7 +54,7 @@ var MetaPortalFilterArray		= [];
 				var element				= $(this);
 				// Main Slider
 				var mainSliderOptions 	= {
-					loop: false,
+					loop: true,
 					speed: 1500,
 					autoplay:{
 						delay: 2000,
