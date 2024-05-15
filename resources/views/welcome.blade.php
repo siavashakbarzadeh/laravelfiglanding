@@ -21,7 +21,7 @@
         </script>
 
         <!-- End Meta Pixel Code -->
-        <meta name="facebook-domain-verification" content="9uqpjgtaks18vkvzyusdiho662evl6" />
+
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -89,7 +89,8 @@
         <script type="text/javascript" src="{{ asset('js/jquery.js?ver=3.1') }}"></script>
         <script type="text/javascript" src="{{ asset('js/plugins.js?ver=3.1') }}"></script>
         <script type="text/javascript" src="{{ asset('js/init.js?ver=3.1') }}"></script>
-
+        <!-- facebook verification -->
+        <meta name="facebook-domain-verification" content="9uqpjgtaks18vkvzyusdiho662evl6" />
     </head>
 
 <body>
