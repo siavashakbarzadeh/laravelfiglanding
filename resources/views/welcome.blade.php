@@ -89,7 +89,7 @@
         <script type="text/javascript" src="{{ asset('js/jquery.js?ver=3.1') }}"></script>
         <script type="text/javascript" src="{{ asset('js/plugins.js?ver=3.1') }}"></script>
         <script type="text/javascript" src="{{ asset('js/init.js?ver=3.1') }}"></script>
-        <!-- facebook verification -->
+        <!-- facebook verification  new-->
         <meta name="facebook-domain-verification" content="9uqpjgtaks18vkvzyusdiho662evl6" />
     </head>
 
