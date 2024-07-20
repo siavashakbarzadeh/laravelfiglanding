@@ -21,7 +21,7 @@
         </script>
 
         <!-- End Meta Pixel Code -->
-
+        <meta name="facebook-domain-verification" content="9uqpjgtaks18vkvzyusdiho662evl6" />
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -89,8 +89,7 @@
         <script type="text/javascript" src="{{ asset('js/jquery.js?ver=3.1') }}"></script>
         <script type="text/javascript" src="{{ asset('js/plugins.js?ver=3.1') }}"></script>
         <script type="text/javascript" src="{{ asset('js/init.js?ver=3.1') }}"></script>
-        <!-- facebook verification  new-->
-        <meta name="facebook-domain-verification" content="9uqpjgtaks18vkvzyusdiho662evl6" />
+
     </head>
 
 <body>
@@ -220,7 +219,269 @@
 
 <!-- Wallet Popup -->
 <div class="metaportal_fn_wallet_closer ready"></div>
+<div class="metaportal_fn_walletbox ready">
+    <a href="#" class="fn__closer"><span></span></a>
+    <div class="walletbox">
 
+        <div class="title_holder">
+            <h3>Connect Wallet</h3>
+            <p>Connect with one of our available wallet providers or create a new one.</p>
+        </div>
+
+        <div class="list_holder">
+            <ul class="metaportal_fn_items">
+                <li>
+                    <div class="item">
+                        <a href="#"></a>
+                        <span class="icon">
+							<img src="img/wallet/metamask.png" alt="">
+						</span>
+                        <span class="text">Metamask</span>
+                    </div>
+                </li>
+                <!--				<li>-->
+                <!--					<div class="item">-->
+                <!--						<a href="#"></a>-->
+                <!--						<span class="icon">-->
+                <!--							<img src="img/wallet/coinbase.png" alt="">-->
+                <!--						</span>-->
+                <!--						<span class="text">Coinbase</span>-->
+                <!--					</div>-->
+                <!--				</li>-->
+                <li>
+                    <div class="item">
+                        <a href="#"></a>
+                        <span class="icon">
+							<img src="img/wallet/walletconnect.png" alt="">
+						</span>
+                        <span class="text">WalletConnect</span>
+                    </div>
+                </li>
+                <!--				<li>-->
+                <!--					<div class="item">-->
+                <!--						<a href="#"></a>-->
+                <!--						<span class="icon">-->
+                <!--							<img src="img/wallet/venly.png" alt="">-->
+                <!--						</span>-->
+                <!--						<span class="text">Venly</span>-->
+                <!--					</div>-->
+                <!--				</li>-->
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!-- !Wallet Popup -->
+
+<!-- Main -->
+<div class="metaportal_fn_main">
+
+    <!-- Mobile Navigation -->
+    <div class="metaportal_fn_mobnav">
+        <div class="mob_top">
+            <div class="social_trigger">
+                <div class="trigger">
+                    <span></span>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="svg/social/facebook-1.svg" alt="" class="fn__svg"></a></li>
+                        <li><a href="https://www.twitter.com/" target="_blank"><img src="svg/social/twitter-1.svg" alt="" class="fn__svg"></a></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="svg/social/instagram-1.svg" alt="" class="fn__svg"></a></li>
+                        <li><a href="https://https://www.pinterest.it/" target="_blank"><img src="svg/social/pinterest-1.svg" alt="" class="fn__svg"></a></li>
+{{--                        <li><a href="https://www.facebook.com/" target="_blank">Fb.</a></li>--}}
+{{--                        <li><a href="https://www.twitter.com/" target="_blank">Tw.</a></li>--}}
+{{--                        <li><a href="https://www.instagram.com/" target="_blank">In.</a></li>--}}
+{{--                        <li><a href="https://www.linkedin.com/" target="_blank">Ln.</a></li>--}}
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="wallet">
+                <a href="#" class="metaportal_fn_button wallet_opener"><span>Wallet</span></a>
+            </div> -->
+        </div>
+        <div class="mob_mid">
+            <div class="logo " style="width: 150px;">
+                <!-- aida -->
+                <a href="#"><img src="img/logo12.svg" alt=""></a>
+            </div>
+            <div class="trigger">
+                <span></span>
+            </div>
+        </div>
+        <div class="mob_bot">
+            <ul>
+                <li><a class="creative_link" href="#">Home</a></li>
+                <li><a class="creative_link" href="#Artist">Artisti</a></li>
+                <li><a class="creative_link" href="#Collezionisti">Collezionisti</a></li>
+                <li><a class="creative_link" href="#who">Chi Siamo</a></li>
+                <li><a class="creative_link" href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- !Mobile Navigation -->
+
+    <!-- Header -->
+    <header id="header">
+        <div class="header">
+            <div class="header_in">
+
+                <div class="trigger_logo">
+                    <div class="trigger">
+                        <span></span>
+                    </div>
+                    <div class="logo text-white " style="width: 150px;">
+                        <!-- FigArte -->
+                        <a href="index.html"><img src="img/logo12.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="nav">
+                    <ul>
+                        <li><a class="creative_link" href="#">Home</a></li>
+                        <li><a class="creative_link" href="#Artist">Artisti</a></li>
+                        <li><a class="creative_link" href="#Collezionisti">Collezionisti</a></li>
+                        <li><a class="creative_link" href="#who">Chi Siamo</a></li>
+                        <li><a class="creative_link" href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="wallet">
+                    <!--<a href="#" class="metaportal_fn_button wallet_opener"><span>Connect To Wallet</span></a>-->
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- !Header -->
+
+    <!-- Content -->
+    <div class="metaportal_fn_content">
+
+        <!-- Home Section -->
+        <section id="home">
+            <div class="container">
+
+                <!-- <h3 class="fn__maintitle big" data-text="FigArte "data-align="center">FigArte</h3> -->
+                <!-- Description -->
+                <div class="fn_cs_desc">
+
+                    <h2>Siamo l'X Factor degli artisti
+                    </h2>
+                    <p>
+                        l’ecosistema che mette in contatto artisti e collezionisti
+
+                    </p>
+                    <!--<a href="https://opensea.io/" class="metaportal_fn_button" target="_blank"><span>Buy On our platform</span></a>-->
+                </div>
+
+
+                <!-- !Description -->
+
+
+                <!-- Slider -->
+                <div class="fn_cs_slider" data-responsive="on">
+                    <div class="slider_top">
+                        <img src="img/1x1.jpg" alt="">
+                        <ul>
+                            <li class="prev" data-index="1">
+                                <div class="item">
+                                    <img src="img/1x1.jpg" alt="">
+                                    <div class="item_in">
+                                        <div class="img" data-bg-img="img/m1.jpg"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="active" data-index="2">
+                                <div class="item">
+                                    <img src="img/1x1.jpg" alt="">
+                                    <div class="item_in">
+                                        <div class="img" data-bg-img="img/m4.jpg"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="next" data-index="3">
+                                <div class="item has_video">
+                                    <img src="img/1x1.jpg" alt="">
+
+                                    <div class="item_in">
+                                        <div class="img" data-bg-img="img/m3.jpg"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="next2" data-index="4">
+                                <div class="item">
+                                    <img src="img/1x1.jpg" alt="">
+                                    <div class="item_in">
+                                        <div class="img" data-bg-img="img/m2.jpg"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-index="5">
+                                <div class="item">
+                                    <img src="img/1x1.jpg" alt="">
+                                    <div class="item_in">
+                                        <div class="img" data-bg-img="img/m5.jpg"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-index="6">
+                                <div class="item">
+                                    <img src="img/1x1.jpg" alt="">
+                                    <div class="item_in">
+                                        <div class="img" data-bg-img="img/m6.jpg"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="prev2" data-index="7">
+                                <div class="item">
+                                    <img src="img/1x1.jpg" alt="">
+                                    <div class="item_in">
+                                        <div class="img" data-bg-img="img/m7.jpg"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider_nav">
+                        <a href="#" class="prev">
+                            <span class="circle"></span>
+                            <span class="icon"><img src="svg/down.svg" alt="" class="fn__svg"></span>
+                            <span class="circle"></span>
+                        </a>
+                        <a href="#" class="next">
+                            <span class="circle"></span>
+                            <span class="icon"><img src="svg/down.svg" alt="" class="fn__svg"></span>
+                            <span class="circle"></span>
+                        </a>
+                    </div>
+                </div>
+                <!-- !Slider -->
+
+
+
+
+            </div>
+        </section>
+
+
+        <!-- !Home Section -->
+        <!-- About Shortcode -->
+        <div class="fn_cs_about">
+            <div class=" left_part p-0">
+                <div class="col-md-6">
+                    <h3 class="fn__maintitle big" data-text="Sei un Artista">Sei un Artista</h3>
+                    <div class="desc">
+                        <p><span class="fn__maintitle small" data-text="Ascolta-Risveglia-Trasforma" style="font-weight: bolder;">Ascolta-Risveglia-Trasforma</span> la tua <br/>
+                            <span class="fn__maintitle small" data-text="Eccellenza" style="font-weight: bolder;">Eccellenza</span> con <span class="fn__maintitle small" data-text=" il metodo A.R.T.E" style="font-weight: bolder;"> il metodo A.R.T.E</span>
+                        </p>
+
+                    </div>
+                    <a href="#Artist" class="metaportal_fn_button"><span>Clicca qui
+									<span></a>
+
+                </div>
+            </div>
             <div class="right_part">
                 <h3 class="fn__maintitle big" data-text="Sei un Collezionista"> Sei un Collezionista</h3>
                 <div class="desc">
